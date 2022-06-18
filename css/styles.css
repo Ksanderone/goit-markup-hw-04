@@ -2,12 +2,14 @@
     --color-first: #212121;
     --color-second: #2196F3;
     --color-third: #757575;
+    --color-fourth: white;
+    --color-five: #188CE8;
+    --color-six: #2F303A;
+    --color-seven: #F5F4FA;
 }
 
-.heads {
-    color: var(--color-first);
-}
 
+/* Логотип в хедере */
 .logo {
 color: var( --color-second);
 }
@@ -16,6 +18,7 @@ color: var( --color-second);
     color: var(--color-first);
 }
 
+/* Ссылки в хедере*/
 .pages {
     color: var(--color-first);
 }
@@ -24,6 +27,7 @@ color: var( --color-second);
 color: var( --color-second);
 }
 
+/* Контакты в хедере и футере*/
 .contacts {
     color: var(--color-third);
 }
@@ -31,21 +35,68 @@ color: var( --color-second);
     color: var( --color-second);
 }
 
+/* Кнопка на первой странице */
+.button {
+    background-color: var( --color-second);
+    color: var(--color-fourth);
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.button:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: var(--color-five);
+}
+
+/* Весь серый текст на страницах */
 .paragraph {
     color: var(--color-third);
 }
 
+/* Фильтры второй страницы */
 .filters {
     border: 1px solid transparent;
 }
 .filters:hover {
-    color: var( --color-second);
+    background-color: var( --color-second);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
 }
 
-.button {
-    background-color: var( --color-second);
-    color: white;
-    border: 1px solid transparent;
+/* Картинки второй страницы */
+.second-pages {
+    border: 1px solid #EEEEEE;
+}
+
+/* Мэйн первой странички */
+.poster {
+    background: var(--color-six);
+    color: var(--color-fourth)
+}
+
+.team {
+    background-color: var(--color-seven);
+}
+
+.pupils {
+    background-color: var(--color-fourth);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+/* Подвал */
+.footer {
+    background: var(--color-six)
+}
+
+.footer-logo {
+    color: var(--color-second);
+}
+
+.footer-logo-end {
+    color: var(--color-fourth);
+}
+
+.adress {
+    font-style: normal;
+    color: var(--color-fourth)
 }
