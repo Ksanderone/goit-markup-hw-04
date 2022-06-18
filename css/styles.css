@@ -1,26 +1,51 @@
+:root {
+    --color-first: #212121;
+    --color-second: #2196F3;
+    --color-third: #757575;
+}
+
+.heads {
+    color: var(--color-first);
+}
+
 .logo {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+color: var( --color-second);
 }
 
 .word-logo {
-    color: #000000;
+    color: var(--color-first);
 }
 
-.footer {
-    background-color: #2F303A;
+.pages {
+    color: var(--color-first);
 }
 
-.body {
-    background-color: red;
+.pages:hover {
+color: var( --color-second);
+}
+
+.contacts {
+    color: var(--color-third);
+}
+.contacts:hover {
+    color: var( --color-second);
+}
+
+.paragraph {
+    color: var(--color-third);
+}
+
+.filters {
+    border: 1px solid transparent;
+}
+.filters:hover {
+    color: var( --color-second);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.button {
+    background-color: var( --color-second);
+    color: white;
+    border: 1px solid transparent;
 }
