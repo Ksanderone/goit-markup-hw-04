@@ -1,102 +1,112 @@
 :root {
-    --color-first: #212121;
+    --color-acent: #212121;
     --color-second: #2196F3;
-    --color-third: #757575;
-    --color-fourth: white;
-    --color-five: #188CE8;
-    --color-six: #2F303A;
-    --color-seven: #F5F4FA;
+    --color-contacts: #757575;
+    --color-baner: #2F303A;
+    --color-baner-name: #FFFFFF;
+    --color-button: #188CE8;
+    --color-team: #F5F4FA;
 }
 
+.body {
+    color: var(--color-acent);
+}
 
-/* Логотип в хедере */
+/* Header */
+/* Логотип */
+
 .logo {
-color: var( --color-second);
+    color: var(--color-second);
+}
+.logo-word {
+
+    color: var(--color-acent);
 }
 
-.word-logo {
-    color: var(--color-first);
+/* Ссылки */
+
+.link {
+    color: var(--color-acent);
 }
 
-/* Ссылки в хедере*/
-.pages {
-    color: var(--color-first);
+.link:hover {
+    color: var(--color-second);
 }
 
-.pages:hover {
-color: var( --color-second);
+.link:active {
+    color: var(--color-second);
 }
 
-/* Контакты в хедере и футере*/
+/* Контакты */
+
 .contacts {
-    color: var(--color-third);
+color: var(--color-contacts);
 }
+
 .contacts:hover {
-    color: var( --color-second);
+color: var(--color-second);
 }
 
-/* Кнопка на первой странице */
+/* Секция банер */
+.baner {
+    background-color: var(--color-baner);
+    color: var(--color-baner-name);
+}
+
+/* Кнопка в банере */
 .button {
-    background-color: var( --color-second);
-    color: var(--color-fourth);
-    border: 1px solid transparent;
-    border-radius: 4px;
+    background-color: var(--color-second);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;;
+    border: 1px;
+    color: var(--color-baner-name);
+    cursor: pointer;
 }
-
 .button:hover {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: var(--color-five);
+background-color: var(--color-button);
 }
 
-/* Весь серый текст на страницах */
+/* Секция команда */
+.bteam {
+background-color: var(--color-team);
+}
+.teammates {
+    background-color: var(--color-baner-name);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+/* Параграфы */
 .paragraph {
-    color: var(--color-third);
-}
-
-/* Фильтры второй страницы */
-.filters {
-    border: 1px solid transparent;
-}
-.filters:hover {
-    background-color: var( --color-second);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-/* Картинки второй страницы */
-.second-pages {
-    border: 1px solid #EEEEEE;
-}
-
-/* Мэйн первой странички */
-.poster {
-    background: var(--color-six);
-    color: var(--color-fourth)
-}
-
-.team {
-    background-color: var(--color-seven);
-}
-
-.pupils {
-    background-color: var(--color-fourth);
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+    color: var(--color-contacts);
 }
 
 /* Подвал */
 .footer {
-    background: var(--color-six)
-}
-
-.footer-logo {
-    color: var(--color-second);
-}
-
-.footer-logo-end {
-    color: var(--color-fourth);
+    background-color: var(--color-baner);
+    color: var(--color-baner-name);
 }
 
 .adress {
     font-style: normal;
-    color: var(--color-fourth)
+}
+.word-logo {
+    color: var(--color-baner-name);
+}
+
+/* Фильтры кнопки */
+.filters {
+background-color: var(--color-team);
+border: transparent;
+cursor: pointer;
+}
+.filters:hover {
+    background-color:var(--color-second);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/* Картинки все */
+.images-all {
+    border: 1px solid #EEEEEE;
 }
