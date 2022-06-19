@@ -51,7 +51,6 @@
 .contacts {
 color: var(--color-contacts);
 text-decoration: none;
-font-weight: 400;
 line-height: 1.71;
 }
 .contacts:hover {
@@ -134,6 +133,16 @@ background-color: var(--color-team);
 .word-logo {
     color: var(--color-hero-name);
 }
+.contacts-footer {
+    color: var(--color-contacts);
+    font-weight: 400
+    text-decoration: none;
+    line-height: 1.71;
+    }
+    .contacts:hover {
+    color: var(--color-second);
+    }
+    
 
 /* Фильтры кнопки */
 .filters {
