@@ -17,6 +17,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 /* Header */
@@ -39,6 +40,7 @@
 .link {
     color: var(--color-primary);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .link:hover {
     color: var(--color-second);
@@ -51,7 +53,7 @@
 .contacts {
 color: var(--color-contacts);
 text-decoration: none;
-line-height: 1.71;
+letter-spacing: 0.02em;
 }
 .contacts:hover {
 color: var(--color-second);
@@ -68,6 +70,9 @@ color: var(--color-second);
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    
 }
 
 /* Кнопка в герое */
@@ -78,9 +83,11 @@ color: var(--color-second);
     border: 1px;
     color: var(--color-hero-name);
     cursor: pointer;
+    font-family: var(--font-family-primary);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 .button:hover {
 background-color: var(--color-button);
@@ -89,6 +96,8 @@ background-color: var(--color-button);
 /* Заголовки */
 .menu-name {
     font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 .name {
     font-weight: 700;
@@ -134,21 +143,21 @@ background-color: var(--color-team);
     color: var(--color-hero-name);
 }
 .contacts-footer {
-    color: var(--color-contacts);
-    font-weight: 400
+    color: var(--color-hero-name); color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
     text-decoration: none;
     line-height: 1.71;
     }
-    .contacts:hover {
+    .contacts-footer:hover {
     color: var(--color-second);
     }
-    
 
 /* Фильтры кнопки */
 .filters {
 background-color: var(--color-team);
 border: transparent;
 cursor: pointer;
+font-family: var(--font-family-primary);
 font-size: 16px;
 line-height: 1.625;
 }
@@ -166,10 +175,18 @@ line-height: 1.625;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .paragraph-portfolio {
     color: var(--color-contacts);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+
+/* Списки */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
