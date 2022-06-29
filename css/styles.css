@@ -6,6 +6,7 @@
     --color-hero-name: #FFFFFF;
     --color-button: #188CE8;
     --color-team: #F5F4FA;
+    --color-contacts-footer: rgba(255, 255, 255, 0.6);
 
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
@@ -45,6 +46,10 @@
 .link:hover,
 .link:focus {
     color: var(--color-second);
+}
+.menu .link.current, 
+.menu .link.current {
+color: var(--color-second);
 }
 
 /* Контакты */
@@ -93,15 +98,16 @@ background-color: var(--color-button);
 }
 
 /* Заголовки */
+.name {
+    font-weight: 700;
+    font-size: 36px;
+}
 .menu-name {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
 }
-.name {
-    font-weight: 700;
-    font-size: 36px;
-}
+
 /* Невидимый заголовок */
 .visually-hidden {
 position: absolute;
@@ -117,7 +123,7 @@ overflow: hidden;
 }
 
 /* Секция команда */
-.bteam {
+.bgteam {
 background-color: var(--color-team);
 }
 .teammates {
@@ -129,9 +135,8 @@ background-color: var(--color-team);
     font-weight: 500;
     font-size: 16px;
 }
-.team-paragraph {
+.team-paragraph {   
     font-size: 16px;
-
 }
 
 /* Параграфы */
@@ -155,7 +160,7 @@ background-color: var(--color-team);
     color: var(--color-hero-name);
 }
 .contacts-footer {
-    color: var(--color-hero-name); color: rgba(255, 255, 255, 0.6);
+    color: var(--color-contacts-footer);
     font-weight: 400;
     text-decoration: none;
     line-height: 1.71;
@@ -175,12 +180,14 @@ cursor: pointer;
 font-family: var(--font-family-primary);
 font-size: 16px;
 line-height: 1.625;
+font-weight: 500;
 }
 .filters:hover,
 .filters:focus {
     background-color:var(--color-second);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    color: var(--color-hero-name);
 }
 
 /* Картинки портфолио */
