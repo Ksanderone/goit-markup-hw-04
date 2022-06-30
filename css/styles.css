@@ -30,10 +30,8 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
-    
 }
 .logo-word {
-
     color: var(--color-primary);
 }
 
@@ -47,7 +45,6 @@
 .link:focus {
     color: var(--color-second);
 }
-.menu .link.current, 
 .menu .link.current {
 color: var(--color-second);
 }
@@ -60,7 +57,7 @@ letter-spacing: 0.02em;
 }
 .contacts:hover,
 .contacts:focus {
-color: var(--color-second);
+color: var(--color-second)
 }
 
 /* Герой */
