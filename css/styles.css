@@ -20,7 +20,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-
 /* Header */
 /* Логотип */
 .logo {
@@ -34,7 +33,6 @@ body {
 .logo-word {
     color: var(--color-primary);
 }
-
 /* Ссылки */
 .link {
     color: var(--color-primary);
@@ -46,20 +44,18 @@ body {
     color: var(--color-second);
 }
 .menu .link.current {
-color: var(--color-second);
+    color: var(--color-second);
 }
-
 /* Контакты */
 .contacts {
-color: var(--color-contacts);
-text-decoration: none;
-letter-spacing: 0.02em;
+    color: var(--color-contacts);
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .contacts:hover,
 .contacts:focus {
-color: var(--color-second)
+    color: var(--color-second)
 }
-
 /* Герой */
 .baner {
     background-color: var(--color-hero);
@@ -73,9 +69,7 @@ color: var(--color-second)
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    
 }
-
 /* Кнопка в герое */
 .button {
     background-color: var(--color-second);
@@ -92,9 +86,8 @@ color: var(--color-second)
 }
 .button:hover,
 .button:focus {
-background-color: var(--color-button);
+    background-color: var(--color-button);
 }
-
 /* Заголовки */
 .name {
     font-weight: 700;
@@ -105,24 +98,22 @@ background-color: var(--color-button);
     font-size: 14px;
     text-transform: uppercase;
 }
-
 /* Невидимый заголовок */
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
 /* Секция команда */
 .bgteam {
-background-color: var(--color-team);
+    background-color: var(--color-team);
 }
 .teammates {
     background-color: var(--color-hero-name);
@@ -136,14 +127,12 @@ background-color: var(--color-team);
 .bgteam p {   
     font-size: 16px;
 }
-
 /* Параграфы */
 .paragraph {
     color: var(--color-contacts);
     font-weight: 400;
     line-height: 1.7;
 }
-
 /* Подвал */
 .footer {
     background-color: var(--color-hero);
@@ -162,23 +151,22 @@ background-color: var(--color-team);
     font-weight: 400;
     text-decoration: none;
     line-height: 1.71;
-    }
+}
     .contacts-footer:hover {
     color: var(--color-second);
-    }
+}
     .contacts-footer:focus {
     color: var(--color-second);
-    }
-
+}
 /* Фильтры кнопки */
 .filters {
-background-color: var(--color-team);
-border: transparent;
-cursor: pointer;
-font-family: var(--font-family-primary);
-font-size: 16px;
-line-height: 1.625;
-font-weight: 500;
+    background-color: var(--color-team);
+    border: transparent;
+    cursor: pointer;
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 500;
 }
 .filters:hover,
 .filters:focus {
@@ -187,7 +175,6 @@ font-weight: 500;
     border-radius: 4px;
     color: var(--color-hero-name);
 }
-
 /* Картинки портфолио */
 .images-all {
     border: 1px solid #EEEEEE;
@@ -204,7 +191,6 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
 }
-
 /* Списки */
 .menu {
     list-style-type: none;
