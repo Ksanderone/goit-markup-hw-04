@@ -21,6 +21,10 @@ body {
     letter-spacing: 0.03em;
 }
 /* Header */
+header {
+    width: 1600px;
+    height: 100px;
+}
 /* Логотип */
 .logo {
     color: var(--color-second);
@@ -60,23 +64,26 @@ body {
 .baner {
     background-color: var(--color-hero);
     color: var(--color-hero-name);
+    width: 1600px;
+    height: 600px;
+    text-align: center;
 }
 .hero {
     font-family: var(--font-family-primary);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 200px;
 }
 /* Кнопка в герое */
 .button {
     background-color: var(--color-second);
+    color: var(--color-hero-name);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;;
     border: 1px;
-    color: var(--color-hero-name);
     cursor: pointer;
     font-family: var(--font-family-primary);
     font-weight: 700;
@@ -92,6 +99,7 @@ body {
 .name {
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
 }
 .menu-name {
     font-weight: 700;
@@ -110,6 +118,13 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+/* Секция Качества */
+.quality {
+    margin: 94px 215px 215px 94px;
+
+    column-count: 4;
+    vertical-align: top
 }
 /* Секция команда */
 .bgteam {
@@ -152,10 +167,8 @@ body {
     text-decoration: none;
     line-height: 1.71;
 }
-    .contacts-footer:hover {
-    color: var(--color-second);
-}
-    .contacts-footer:focus {
+.contacts-footer:hover,
+.contacts-footer:focus {
     color: var(--color-second);
 }
 /* Фильтры кнопки */
@@ -179,7 +192,14 @@ body {
 .images-all {
     border: 1px solid #EEEEEE;
 }
+.images-all:hover,
+.images-all:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .name-images {
+    color: var(--color-primary);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -191,6 +211,10 @@ body {
     font-size: 16px;
     line-height: 1.87;
 }
+.images-all > a {
+    text-decoration: none;
+}
+
 /* Списки */
 .menu {
     list-style-type: none;
