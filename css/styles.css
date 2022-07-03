@@ -22,8 +22,10 @@ body {
 }
 /* Header */
 header {
-    width: 1600px;
-    height: 100px;
+
+}
+nav {
+
 }
 /* Логотип */
 .logo {
@@ -64,9 +66,9 @@ header {
 .baner {
     background-color: var(--color-hero);
     color: var(--color-hero-name);
-    width: 1600px;
     height: 600px;
     text-align: center;
+    margin: 0 auto;
 }
 .hero {
     font-family: var(--font-family-primary);
@@ -120,11 +122,15 @@ header {
     overflow: hidden;
 }
 /* Секция Качества */
+.container {
+    width: 1170px;
+    margin: 94px 215px;
+}
+.container-list{
+    padding: 0 30px;
+}
 .quality {
-    margin: 94px 215px 215px 94px;
 
-    column-count: 4;
-    vertical-align: top
 }
 /* Секция команда */
 .bgteam {
@@ -218,6 +224,4 @@ header {
 /* Списки */
 .menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
