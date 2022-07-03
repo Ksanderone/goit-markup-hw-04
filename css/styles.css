@@ -221,7 +221,7 @@ margin-right: auto;
     padding-top: 60px;
 
 }
-.adress {
+.container > .adress {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
