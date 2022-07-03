@@ -1,3 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 :root {
     --color-primary: #212121;
     --color-second: #2196F3;
@@ -11,7 +33,6 @@
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
 }
-
 body {
     color: var(--color-primary);
     font-family: var(--font-family-primary);
@@ -19,14 +40,10 @@ body {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 /* Header */
-header {
 
-}
-nav {
-
-}
 /* Логотип */
 .logo {
     color: var(--color-second);
@@ -40,6 +57,7 @@ nav {
     color: var(--color-primary);
 }
 /* Ссылки */
+
 .link {
     color: var(--color-primary);
     text-decoration: none;
@@ -53,6 +71,9 @@ nav {
     color: var(--color-second);
 }
 /* Контакты */
+.contacts-header {
+    margin-left: 1078px;
+}
 .contacts {
     color: var(--color-contacts);
     text-decoration: none;
@@ -67,8 +88,14 @@ nav {
     background-color: var(--color-hero);
     color: var(--color-hero-name);
     height: 600px;
+    width: 1600px;
     text-align: center;
-    margin: 0 auto;
+}
+.baner.section {
+padding-left: 0;
+padding-top: 0;
+margin-left: auto;
+margin-right: auto;
 }
 .hero {
     font-family: var(--font-family-primary);
@@ -92,6 +119,9 @@ nav {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
 }
 .button:hover,
 .button:focus {
@@ -129,12 +159,15 @@ nav {
 .container-list{
     padding: 0 30px;
 }
-.quality {
 
-}
 /* Секция команда */
-.bgteam {
+.section.bgteam {
     background-color: var(--color-team);
+    padding-bottom: 0;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .teammates {
     background-color: var(--color-hero-name);
@@ -223,5 +256,20 @@ nav {
 
 /* Списки */
 .menu {
-    list-style-type: none;
+    list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+/* Секции */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+}
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
