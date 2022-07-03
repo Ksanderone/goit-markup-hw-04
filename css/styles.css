@@ -22,12 +22,12 @@ img {
 }
 :root {
     --color-primary: #212121;
-    --color-second: #2196F3;
+    --color-second: #2196f3;
     --color-contacts: #757575;
-    --color-hero: #2F303A;
-    --color-hero-name: #FFFFFF;
-    --color-button: #188CE8;
-    --color-team: #F5F4FA;
+    --color-hero: #2f303a;
+    --color-hero-name: #ffffff;
+    --color-button: #188ce8;
+    --color-team: #f5f4fa;
     --color-contacts-footer: rgba(255, 255, 255, 0.6);
 
     --font-family-primary: 'Roboto', sans-serif;
