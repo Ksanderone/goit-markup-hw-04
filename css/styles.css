@@ -55,7 +55,7 @@ body {
     align-items: center;
 } 
 header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 /* Логотип */
 .logo {
@@ -129,12 +129,11 @@ nav > a {
     background-color: var(--color-hero);
     color: var(--color-hero-name);
     height: 600px;
-    width: 1600px;
     text-align: center;
 }
 .baner.section {
     padding-left: 0;
-    padding-top: 0;
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -145,7 +144,6 @@ nav > a {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-top: 200px;
     margin-bottom: 30px;
 }
 /* Кнопка в герое */
@@ -202,6 +200,7 @@ nav > a {
 }
 .quality .quality-list {
     margin-right: 30px;
+    width: 270px;
 }
 .quality .quality-list:last-child {
     margin-right: 0;
@@ -226,8 +225,7 @@ nav > a {
 .section.bgteam {
     background-color: var(--color-team);
     padding-bottom: 0;
-    padding-top: 0;
-    width: 1600px;
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -256,7 +254,7 @@ nav > a {
 }
 .team-name-box {
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
 }
 .bgteam p {   
     font-size: 16px;
@@ -304,16 +302,17 @@ nav > a {
 .contacts-footer:focus {
     color: var(--color-second);
 }
+.footer-contacts-list {
+    margin-top: 9px;
+}
 .adress {
     margin-top: 20px;
     margin-bottom: 9px;
 }
 /* Секция Портфолио */
 .portfolio.section {
-    margin-top: 94px;
-    padding-top: 0;
-    margin-bottom: 94px;
-    padding-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* Фильтры кнопки */
 .filters {
@@ -328,9 +327,6 @@ nav > a {
     max-width: 145px;
     border-radius: 4px;
 }
-.filters-button {
-    margin-bottom: 50px;
-}
 .filters-menu .filters-button-list {
     margin-right: 8px;
 }
@@ -340,6 +336,7 @@ nav > a {
 .filters-menu {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .filters:hover,
 .filters:focus {
@@ -391,7 +388,6 @@ border: 1px solid #EEEEEE;
 }
 /* Секции */
 .section {
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
