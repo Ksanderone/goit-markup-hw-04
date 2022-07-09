@@ -128,8 +128,6 @@ nav > a {
     margin-left: 30px;
 }
 .header-icon {
-    width: 16px;
-    height: 12px;
     margin-right: 10px;
     fill: currentColor;
 }
@@ -231,10 +229,7 @@ color: var(--color-second);
     justify-content: center;
     align-items: center;
 }
-.quality-icon {
-    width: 70px;
-    height: 70px;
-}
+
 /* Секция чем мы занимаемся */
 .works.section {
     padding-top: 0;
@@ -319,8 +314,6 @@ color: var(--color-second);
 }
 .social-icons {
     fill: currentColor;
-    width: 20px;
-    height: 20px;
 }
 /* Параграфы */
 .paragraph {
@@ -363,8 +356,6 @@ color: var(--color-second);
 }
 .clients-icon {
     fill: currentColor;
-    width: 106px;
-    height: 60px;
 }
 /* Подвал */
 .footer {
