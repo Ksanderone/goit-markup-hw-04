@@ -36,6 +36,9 @@ ul {
     --color-button: #188ce8;
     --color-team: #f5f4fa;
     --color-contacts-footer: rgba(255, 255, 255, 0.6);
+    --color-social-icons: #afb1b8; 
+    --color-icons-footer: rgba(255, 255, 255, 0.1);
+    --color-icons: #afb1b8;
 
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
@@ -122,7 +125,17 @@ nav > a {
     margin-left: auto;
 }
 .contacts-nav .list + .list {
-    margin-left: 48px;
+    margin-left: 30px;
+}
+.header-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.header-icon:hover,
+.header-icon:focus {
+color: var(--color-second);
 }
 /* Герой */
 .baner.section {
@@ -207,37 +220,20 @@ nav > a {
 .quality .quality-list:last-child {
     margin-right: 0;
 }
-.quality-list:nth-child(1):before {
-    content: '';
-    display: block;
-    background-color: var(--color-team);
+.container.quality-box {
+    width: 270px;
     height: 120px;
+    background-color: var(--color-team);
     margin-bottom: 30px;
+    padding: 0;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.quality-list:nth-child(2):before {
-    content: '';
-    display: block;
-    background-color: var(--color-team);
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-}
-.quality-list:nth-child(3):before {
-    content: '';
-    display: block;
-    background-color: var(--color-team);
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-}
-.quality-list:nth-child(4):before {
-    content: '';
-    display: block;
-    background-color: var(--color-team);
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
+.quality-icon {
+    width: 70px;
+    height: 70px;
 }
 /* Секция чем мы занимаемся */
 .works.section {
@@ -288,10 +284,43 @@ nav > a {
 }
 .team-name-box {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 .bgteam p {   
     font-size: 16px;
+}
+.social-list {
+    padding: 0 32px 30px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.social-item:last-child {
+    margin-right: 0;
+}
+.social-links {
+    color: var(--color-social-icons);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links:hover,
+.social-links:focus {
+    color: var(--color-hero-name);
+    background-color: var(--color-second);
+    border-radius: 50%;
+}
+.social-icons {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
 }
 /* Параграфы */
 .paragraph {
@@ -299,6 +328,43 @@ nav > a {
     font-weight: 400;
     line-height: 1.7;
     margin-bottom: 0;
+}
+/* Секция клиенты */
+.clients-name {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+.clients-items {
+    margin-right: 30px;
+}
+.clients-items:last-child {
+    margin-right: 0;
+}
+.clients-link {
+    color: var(--color-icons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--color-second);
+    border-color: var(--color-second);
+}
+.clients-icon {
+    fill: currentColor;
+    width: 106px;
+    height: 60px;
 }
 /* Подвал */
 .footer {
@@ -342,6 +408,45 @@ nav > a {
 .adress {
     margin-top: 20px;
     margin-bottom: 9px;
+}
+.container.social-box-footer {
+    width: 206px;
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+}
+.social-name-footer {
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.social-list-footer {
+    display: flex;
+}
+.social-links-footer {
+    color: var(--color-hero-name);
+    background-color: var(--color-icons-footer);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-links-footer:hover,
+.social-links-footer:focus {
+    color: var(--color-hero-name);
+    background-color: var(--color-second);
+    border-radius: 50%;
+}
+.container.adress-box {
+    padding: 0;
+    margin: 0;
+    width: 231px;
+}
+.footer-box {
+    display: flex;
+    align-items: baseline;
 }
 /* Секция Портфолио */
 .portfolio.section {
